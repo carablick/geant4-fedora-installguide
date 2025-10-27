@@ -110,7 +110,7 @@ NOTE: This copies the path for the example provided by CERN to your documents fo
 2.
             cd /home/YOURUSERNAMEHERE/Documents/geant4/geant4_B1
 
-3,
+3.
             mkdir build && cd build
 
 4.
