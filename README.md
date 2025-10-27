@@ -19,6 +19,7 @@ WARNING: DO NOT INSTALL TO A PROTECTED DIRECTORY, such /opt, as this will preven
 INSTALLATION - Copy/paste the commands into your terminal then hit enter.
 
 1.
+
 Open a new terminal and run
             sudo dnf upgrade
 then
@@ -86,6 +87,7 @@ NOTE: If any errors occur, rerun steps 6-8. This may take multiple attempts, as 
 
 VERIFY INSTALLATION:
 1.
+
 WARNING: If you left the terminal, you must run "source /home/YOURUSERNAMEHERE/Documents/geant4/geant4-install/bin/geant4.sh" (or the alternative directory you installed to) again first. You will need to do this every time you open a new terminal following installation to initialize the program.
 
             geant4-config --version
