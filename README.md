@@ -1,5 +1,5 @@
 # geant4-fedora-installguide
-Geant4 installation guide from source for fedora42 made as painless as possible
+Geant4 installation guide from scratch, for Fedora 42, made as painless as possible.
 
 Installation guide: Geant4-v11.3.2
 
@@ -80,7 +80,7 @@ NOTE: If any errors occur, rerun steps 7-8. It will only rerun what it missed an
 9.
             cmake --install .
 
-NOTE: If any errors occur, rerun steps 6-8. This may take multiple attempts, as the
+NOTE: If any errors occur, rerun steps 6-8. This may take multiple attempts.
 
 10.
             source /home/YOURUSERNAMEHERE/Documents/geant4/geant4-install/bin/geant4.sh
