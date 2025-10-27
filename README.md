@@ -2,13 +2,16 @@
 Geant4 installation guide from source for fedora42 made as painless as possible
 
 Installation guide: Geant4-v11.3.2
+
 NOTE: If a new version of geant4 is released, replace the version nummbers in steps 3-5 with the desired version.
 PREREQS: Fedora 42 or later (Tested only on Fedora 42 KDE Plasma, but it should work with any Fedora 42 or later).
 
 NOTE: You can paste these commands into the terminal with ctrl+shift+v.
+
 NOTE: All steps can be run through the same terminal from the default directory. This is written to install to
 /home/YOURUSERNAMEHERE/Documents/geant4. If you wish to install to a different directory. Replace the path in all
 commands with your desired one.
+
 WARNING: DO NOT INSTALL TO A PROTECTED DIRECTORY, such /opt, as this will prevent cmake from being able to compile
             any source code for simulations.
 
@@ -21,7 +24,7 @@ Open a new terminal and run
 then
             sudo dnf update
 
-  NOTE: If it asks for confirmation, type y and hit enter
+NOTE: If it asks for confirmation, type y and hit enter
 
 2.
             sudo dnf install -y gcc gcc-c++ make cmake git gdb patch \
