@@ -131,6 +131,7 @@ WARNING: You must include the export QT_QPA_PLATFORM=xcb portion of the command 
 NOTE: If you did everything right, this will open a new window which runs the simulation. If it errors, you may have missed a step.
 
 RUNNING YOUR SIMULATION:
+
 1.
 In the geant4 window for your simulation, at the bottom of the screen is a text field that starts with "Session:"
 In that field, enter the following command, then hit enter:
