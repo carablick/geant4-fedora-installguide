@@ -52,14 +52,14 @@ NOTE: If it asks for confirmation, type y and hit enter
 8.
 
             cmake \
-  -DCMAKE_INSTALL_PREFIX=~/Documents/geant4/geant4-install \
-  -DGEANT4_BUILD_MULTITHREADED=ON \
-  -DGEANT4_USE_QT=ON \
-  -DGEANT4_USE_OPENGL_X11=ON \
-  -DGEANT4_USE_GDML=ON \
-  -DGEANT4_INSTALL_DATA=ON \
-  -DGEANT4_BUILD_TLS_MODEL=auto \
-  ../geant4-v11.3.2
+              -DCMAKE_INSTALL_PREFIX=~/Documents/geant4/geant4-install \
+              -DGEANT4_BUILD_MULTITHREADED=ON \
+              -DGEANT4_USE_QT=ON \
+              -DGEANT4_USE_OPENGL_X11=ON \
+              -DGEANT4_USE_GDML=ON \
+              -DGEANT4_INSTALL_DATA=ON \
+              -DGEANT4_BUILD_TLS_MODEL=auto \
+              ../geant4-v11.3.2
 
 NOTE: If any errors occur, rerun step 7. If the errors are related to a missing package. Rerun steps 1 and 2, then rerun step 7.
 
