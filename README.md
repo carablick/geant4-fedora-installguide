@@ -26,10 +26,6 @@ INSTALLATION - Copy/paste the commands into your terminal then hit enter.
 
 Open a new terminal and run
 
-            sudo dnf upgrade
-            
-then
-
             sudo dnf update
 
 NOTE: If it asks for confirmation, type y and hit enter
