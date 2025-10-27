@@ -3,6 +3,7 @@ Geant4 installation guide from scratch, for Fedora 42, made as painless as possi
 
 Geant4 is infamously difficult to install, and after trying to follow the official docs and several online guides, I was not able to get it running, so I wrote my own guide after figuring out a working process.
 This guide was tested on two computers running Fedora 42 KDE Plasma, but it "should" work on any version of Fedora 42 or later.
+This was written for linux & geant4 beginners, so some of the notes and warnings may be unnecessary for an experienced user.
 
 Installation guide: Geant4-v11.3.2 on Fedora 42
 
@@ -15,8 +16,8 @@ NOTE: All steps can be run through the same terminal from the default directory.
 /home/YOURUSERNAMEHERE/Documents/geant4. If you wish to install to a different directory. Replace the path in all
 commands with your desired one.
 
-WARNING: DO NOT INSTALL TO A PROTECTED DIRECTORY, such /opt, as this will prevent cmake from being able to compile
-            any source code for simulations.
+WARNING: DO NOT INSTALL TO A PROTECTED DIRECTORY, such /opt, unless you really know what you are doing, as this will prevent cmake from being able to compile
+            any source code for simulations without some extra configuring.
 
 
 INSTALLATION - Copy/paste the commands into your terminal then hit enter.
