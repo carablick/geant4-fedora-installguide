@@ -8,7 +8,8 @@ This was written for linux & geant4 beginners, so some of the notes and warnings
 Installation guide: Geant4-v11.3.2 on Fedora 42
 
 NOTE: If a new version of geant4 is released, replace the version nummbers in steps 3-5 with the desired version.
-PREREQS: Fedora 42 or later (Tested only on Fedora 42 KDE Plasma, but it should work with any Fedora 42 or later).
+
+PREREQS: Fedora 42 or later
 
 NOTE: You can paste these commands into the terminal with ctrl+shift+v.
 
