@@ -21,8 +21,11 @@ INSTALLATION - Copy/paste the commands into your terminal then hit enter.
 1.
 
 Open a new terminal and run
+
             sudo dnf upgrade
+            
 then
+
             sudo dnf update
 
 NOTE: If it asks for confirmation, type y and hit enter
@@ -86,6 +89,7 @@ NOTE: If any errors occur, rerun steps 6-8. This may take multiple attempts.
             source /home/YOURUSERNAMEHERE/Documents/geant4/geant4-install/bin/geant4.sh
 
 VERIFY INSTALLATION:
+
 1.
 
 WARNING: If you left the terminal, you must run "source /home/YOURUSERNAMEHERE/Documents/geant4/geant4-install/bin/geant4.sh" (or the alternative directory you installed to) again first. You will need to do this every time you open a new terminal following installation to initialize the program.
@@ -95,6 +99,7 @@ WARNING: If you left the terminal, you must run "source /home/YOURUSERNAMEHERE/D
 If you followed these steps correctly, this should print the version number, currently "11.3.2".
 
 BUILD AND OPEN A SIMULATION:
+
 WARNING: If you left the terminal, you must run "source /home/YOURUSERNAMEHERE/Documents/geant4/geant4-install/bin/geant4.sh" (or the alternative directory you installed to) again first. You will need to do this every time you open a new terminal following installation to initialize the program.
 
 1.
