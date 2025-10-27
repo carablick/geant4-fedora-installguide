@@ -1,7 +1,10 @@
 # geant4-fedora-installguide
 Geant4 installation guide from scratch, for Fedora 42, made as painless as possible.
 
-Installation guide: Geant4-v11.3.2
+Geant4 is infamously difficult to install, and after trying to follow the official docs and several online guides, I was not able to get it running, so I wrote my own guide after figuring out a working process.
+This guide was tested on two computers running Fedora 42 KDE Plasma, but it "should" work on any version of Fedora 42 or later.
+
+Installation guide: Geant4-v11.3.2 on Fedora 42
 
 NOTE: If a new version of geant4 is released, replace the version nummbers in steps 3-5 with the desired version.
 PREREQS: Fedora 42 or later (Tested only on Fedora 42 KDE Plasma, but it should work with any Fedora 42 or later).
@@ -135,7 +138,9 @@ RUNNING YOUR SIMULATION:
 1.
 In the geant4 window for your simulation, at the bottom of the screen is a text field that starts with "Session:"
 In that field, enter the following command, then hit enter:
+
             /run/beamOn 10
+  
 NOTE: This will run the simulation 10 times. If you want to run it a different number of times, replace 10 with your desired runs.
 
 If you did everything correctly, the simulation should display in the viewing window.
